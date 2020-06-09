@@ -1,5 +1,6 @@
 body {
-    color: #333333;
+    background-color: #1b3a75;
+    color: white;
     font-family: arial;
     max-width: 650px;
     margin: 0 auto;
@@ -14,23 +15,40 @@ body {
     flex-grow: 1;
 }
 
+.nav {
+    border-bottom: 1px solid #dfdfdf;
+    padding-bottom: 16px;
+}
+
 footer {
-    color: #888888;
-    border-top: 1px solid #eeeeee;
+    color: #dfdfdf;
+    border-top: 1px solid #dfdfdf;
+    font-size: small;
     margin-top: 16px;
     padding: 16px 0;
 }
 
+footer a {
+    color: #dfdfdf;
+    text-decoration: none;
+}
+
+a {
+    color: #f9efb0;
+}
+
 input {
-    border: 1px solid #cccccc;
+    border: 1px solid #f9efb0;
+    border-radius: 5px;
     padding: 8px;
 }
 
 button {
     cursor: pointer;
-    border: 1px solid #888888;
-    background: #888888;
-    color: white;
+    border: 2px solid #f9efb0;
+    border-radius: 5px;
+    background: #1b3a75;
+    color: #f9efb0;
     padding: 8px;
 }
 
@@ -44,12 +62,38 @@ h1 {
     margin-bottom: 16px;
 }
 
-header a {
-    color: #888888;
+h2 {
+    color: #f9efb0;
+}
+
+.flex-banner a {
+    color: #f9efb0;
+    text-decoration: none;
+}
+
+.links {
+    color: #dfdfdf;
     margin-right: 16px;
     text-decoration: none;
 }
 
 .portrait {
+    border-radius: 50%;
     width: 250px;
+}
+
+.flex-banner {
+    align-items: center;
+    display: flex;
+    margin-bottom: 16px;
+}
+
+.logo {
+    height: 100px;
+    padding-right: 16px;
+    width: 100px;
+}
+
+.powered {
+    font-size: small;
 }
