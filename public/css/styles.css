@@ -52,6 +52,12 @@ button {
     padding: 8px;
 }
 
+button:hover {
+    background: #f9efb0;
+    color: #1b3a75;
+    transition: 0.4s;
+}
+
 header {
     margin-top: 16px;
     margin-bottom: 48px;
